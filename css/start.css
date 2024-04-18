@@ -1,0 +1,37 @@
+body{
+    background-color: white;
+}
+
+.container{
+    display: flex;
+  
+}
+
+.front-end{
+    background-color:white ;
+    width: 50vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.back-end{
+    background-color: #182836;
+    width: 50vw;
+    height: 400vh;
+    text-align: center;
+}
+
+.front-end h2{
+    font-size: 4em;
+    color: #182836;
+    margin-top: 5vh;
+}
+
+.back-end h2{
+    font-size: 4em;
+    margin-top: 5vh;
+}
+
+frontcontent{
+    background-color: #F6F6F6;
+}

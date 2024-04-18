@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/start.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="http://jensbul.com/"><img src="img/JBlogoblauw.png"></a>
+        <div id="myLinks">
+            <a href="start.html">START</a>
+            <a href="index.html">HOME</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <div class="container">
+      <div class="front-end">
+      
+        <h2>Front-End</h2>
+
+        <div class="frontcontent">
+          <h3>HTML</h3>
+          <p>HTML is the standard markup language for creating Web pages.</p>
+        </div>
+      </div>
+
+      <div class="back-end">
+        
+          <h2>Back-End</h2>
+          <div class="backcontent">
+            <h3>PHP</h3>
+            <p>PHP is a popular general-purpose scripting language that is especially suited to web development.</p>
+          </div>
+    </div>
+
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+</body>
+</html>
